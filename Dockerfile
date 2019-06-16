@@ -58,4 +58,6 @@ ENV APP_NAME=lib_ten
 ENV APP_VERSION=0.0.1
 ENV PORT 80
 
+VOLUME /app/uploads
+
 CMD /app/bin/lib_ten foreground
